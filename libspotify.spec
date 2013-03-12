@@ -1,6 +1,6 @@
 Name:		libspotify
 Version:	12.1.51
-Release:	2%{?dist}
+Release:	3%{?dist}
 Summary:	Official Spotify API
 Group:		Development/Libraries
 License:	Redistributable, no modification permitted
@@ -95,6 +95,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Tue Mar 12 2013 Nicolas Chauvet <kwizart@gmail.com> - 12.1.51-3
+- https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
+
 * Wed Jul 11 2012 Jonathan Dieter <jdieter@gmail.com> - 12.1.51-2
 - Add in armv5, armv6 and armv7
 
