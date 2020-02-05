@@ -1,6 +1,6 @@
 Name:		libspotify
 Version:	12.1.51
-Release:	6%{?dist}
+Release:	7%{?dist}
 Summary:	Official Spotify API
 License:	Redistributable, no modification permitted
 URL:		https://mopidy.github.io/libspotify-archive/
@@ -74,6 +74,9 @@ chmod 644 %{buildroot}%{_includedir}/libspotify/*
 
 
 %changelog
+* Wed Feb 05 2020 RPM Fusion Release Engineering <leigh123linux@gmail.com> - 12.1.51-7
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_32_Mass_Rebuild
+
 * Sun Dec 08 2019 Tobias Girstmair <t-rpmfusion@girst.at> - 12.1.51-6
 - Change upstream to Mopidy's Spotify SDK archive
 - Remove unsupported arches armv5 and armv6
