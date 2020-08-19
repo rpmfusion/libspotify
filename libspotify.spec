@@ -1,6 +1,6 @@
 Name:		libspotify
 Version:	12.1.51
-Release:	7%{?dist}
+Release:	8%{?dist}
 Summary:	Official Spotify API
 License:	Redistributable, no modification permitted
 URL:		https://mopidy.github.io/libspotify-archive/
@@ -74,6 +74,9 @@ chmod 644 %{buildroot}%{_includedir}/libspotify/*
 
 
 %changelog
+* Wed Aug 19 2020 RPM Fusion Release Engineering <leigh123linux@gmail.com> - 12.1.51-8
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_33_Mass_Rebuild
+
 * Wed Feb 05 2020 RPM Fusion Release Engineering <leigh123linux@gmail.com> - 12.1.51-7
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_32_Mass_Rebuild
 
